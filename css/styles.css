@@ -33,22 +33,18 @@ body {
 
  .web-logo {
      color: var(--color-brand);
-     font-size: 26px;
-     font-weight: 700;
      font-family: 'Raleway', sans-serif;
      text-decoration: none;
      letter-spacing: 0.03em;
+    text-transform: uppercase;
  }
 
- .web-logo .studio-logo-heater {
-     color: #000000;
+ .web-logo .studio-logo-header {
+     color: #2e2f42;
      letter-spacing: 0.03em;
+    text-transform: uppercase;
  }
 
- .web-logo .studio-logo-footer {
-     color: var(--color-light);
-     letter-spacing: 0.03em;
- }
 
   /* Site-nav */
 
@@ -70,6 +66,7 @@ body {
 
     .header-contacts .header-adress {
     text-decoration: none;
+    font-style: normal;
     color: var(--text-color);
     font-size: 16px;
     line-height: 24px;
@@ -90,11 +87,16 @@ body {
         line-height: 60px;
         text-align: center;
         letter-spacing: 0.02em;
+        line-height: 1.07;
         color:var(--text-color-light)}
 
     .baner-button {
             width: 169px;
             height: 56px;
+            font-weight: 500;
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
             background:var(--color-brand);
             color:var(--text-color-light);
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -120,7 +122,7 @@ body {
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.07;
     letter-spacing: 0.02em;
 color:var(--text-color-navy)}
 
@@ -136,10 +138,12 @@ color:var(--text-color);}
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
+    line-height: 1.11;
 text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-color:var(--text-color-navy)}
+color:var(--text-color-navy)
+}
 
 /* Our Team */
 
@@ -151,6 +155,7 @@ background:var(--color-background-light)}
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
+    line-height: 1.11;
 text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
