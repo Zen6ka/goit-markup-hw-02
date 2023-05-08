@@ -34,8 +34,11 @@ body {
  .web-logo {
      color: var(--color-brand);
      font-family: 'Raleway', sans-serif;
-     text-decoration: none;
-     letter-spacing: 0.03em;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-decoration: none;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
  }
 
@@ -43,6 +46,14 @@ body {
      color: #2e2f42;
      letter-spacing: 0.03em;
     text-transform: uppercase;
+ }
+ .web-logo .studio-logo-footer {
+     color: #f4f4fd;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
  }
 
 
@@ -74,7 +85,8 @@ body {
 
     .header-contacts .header-adress:hover,
     .header-contacts .header-adress:focus {
-  color: #404BBF;}
+  color: #404BBF;
+font-style: normal}
 
   /* Baner */
 
@@ -87,7 +99,7 @@ body {
         line-height: 60px;
         text-align: center;
         letter-spacing: 0.02em;
-        line-height: 1.07;
+        line-height: 1.2;
         color:var(--text-color-light)}
 
     .baner-button {
