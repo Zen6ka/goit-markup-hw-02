@@ -75,7 +75,12 @@ body {
     .site-nav .active{ color: #404BBF;
     text-decoration: underline;}
 
-    .header-contacts .header-adress {
+    .adress {
+        font-style: normal;
+    }
+
+    .header-contacts
+    .header-adress {
     text-decoration: none;
     font-style: normal;
     color: var(--text-color);
@@ -217,7 +222,7 @@ color: var(--text-color);}
             border-radius: 4px;
             align-items: center;
             font-style: normal;
-            font-family: Roboto;
+            font-family: Roboto, sans-serif;
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 24px;
@@ -244,6 +249,8 @@ color: var(--text-color);}
                         border-radius: 4px;
                 color: var(--text-color-light);
             cursor: pointer;}
+
+            .link{text-decoration: none}
 
                 .portfolio-title{font-style: normal;
                     font-weight: 500;
